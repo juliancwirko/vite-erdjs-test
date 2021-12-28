@@ -8,3 +8,9 @@ Works, but:
 4. I had to use strictly version 8.0.0 because the one published in the npm registry doesn't include output for browsers
 5. The minified version of erdjs doesn't work for me. For more details see [here](https://github.com/ElrondNetwork/elrond-sdk-erdjs/pull/95)
 6. I think similar problems will be with Webpack 5, but it worked with Webpack 4, so maybe the solution will be more straightforward. I am unsure if it will be possible with the new Create React App without ejecting.
+
+- `yarn install`
+- `yarn dev`
+
+- `yarn build`
+- `yarn preview`
