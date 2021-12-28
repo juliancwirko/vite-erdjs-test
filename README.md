@@ -2,7 +2,7 @@ Playing around with Vite and Erdjs
 
 Works, but:
 
-1. I had to use the browserify version of the library because adding Node polyfills won't work for me (I didn't spend much time, though)
+1. I had to use the [browserify version](https://github.com/juliancwirko/vite-erdjs-test/blob/main/src/main.ts#L10) of the library because adding Node polyfills won't work for me (I didn't spend much time, though)
 2. I had to add the Typescript declaration 'hack' to use the typings. See [erdjs.d.ts](https://github.com/juliancwirko/vite-erdjs-test/blob/main/src/erdjs.d.ts)
 3. The output bundle file is big, which isn't good. The erdjs library would probably need some changes. Maybe it can be split into modules, even for browser usage.
 4. I had to use strictly version 8.0.0 because the one published in the npm registry doesn't include output for browsers
